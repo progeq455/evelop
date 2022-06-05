@@ -1,0 +1,75 @@
+.registration {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7%;
+}
+
+.registration__logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-weight: 900;
+    color: #42a5f5;
+}
+
+.registration__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2b2b2b;
+    margin-top: -5px;
+    margin-bottom: 55px;
+}
+
+.error_reg {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ff3a3a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.registration__button {
+    padding: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    font: inherit;
+    color: #42a5f5;
+    cursor: pointer;
+    background: #80d7ff25;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.registration__button:hover {
+    background: #80d7ff50;
+    transition: 0.5s;
+}
+
+.registration__button:not(:hover) {
+    transition: 0.3s;
+}
+
+.registration__login {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8d8d8d;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.registration__login:hover {
+    color: #42a5f5;
+    transition: 0.3s;
+}
+
+.registration__login:not(:hover) {
+    transition: 0.3s;
+}

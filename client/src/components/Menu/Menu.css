@@ -1,0 +1,36 @@
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fafafa;
+    transition: 0.2s;
+    overflow-x: hidden;
+}
+
+.menu__lm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 25px;
+}
+
+.menu__close {
+    width: 18px;
+    height: 17px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.menu__close:hover {
+    opacity: 0.80;
+}

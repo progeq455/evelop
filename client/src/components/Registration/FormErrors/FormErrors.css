@@ -1,0 +1,14 @@
+.errors {
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.error_elem {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: rgb(30, 32, 34);
+    margin-bottom: 0;
+}
